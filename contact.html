@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>contact</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">about me</a></li>
+                <li><a href="galerie.html">gallery</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <form id="contactForm" action="https://formspree.io/f/mdkzrdlb" method="POST">
+                <label for="name">name :</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">mail :</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">send</button>
+            </form>
+
+            <!-- Conteneur centrant le message et le bouton -->
+            <div id="confirmation-container" style="display:none; text-align:center; margin-top: 1em;">
+                <p id="confirmation" style="color: green; font-weight: bold;">
+                    Merci pour votre message, je vous répondrai rapidement !
+                </p>
+
+                <button id="backHomeBtn" style="margin-top: 1em; border-radius: 25px; padding: 0.5em 1.5em; cursor:pointer;">
+                    <a href="home.html" style="text-decoration:none; color: inherit;">Back to Home</a>
+                </button>
+            </div>
+
+            <script>
+                const form = document.getElementById('contactForm');
+                const confirmationContainer = document.getElementById('confirmation-container');
+
+                form.addEventListener('submit', function (e) {
+                    e.preventDefault(); // Empêche le rechargement
+
+                    const data = new FormData(form);
+
+                    fetch(form.action, {
+                        method: form.method,
+                        body: data,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    }).then(response => {
+                        if (response.ok) {
+                            form.style.display = 'none';
+                            confirmationContainer.style.display = 'block';  // Montre message + bouton centrés
+                        } else {
+                            alert('Oups, il y a eu un problème lors de l’envoi.');
+                        }
+                    }).catch(() => {
+                        alert('Erreur réseau, veuillez réessayer.');
+                    });
+                });
+            </script>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - created by leia quilichini</p>
+        </footer>
+    </main>
+</body>
+
+</html>

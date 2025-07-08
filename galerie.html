@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gallery</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>slice of life</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">home</a></li>
+                <li><a href="about.html">about me</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="now-playing">
+            <hr />
+            <p>🎧 favorite song at the moment: <strong>LOST! – RM</strong></p>
+            <audio controls>
+                <source src="music/LOST! - RM.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <hr />
+        </section>
+
+        <section class="galerie-videos">
+            <h2>some videos</h2>
+            <div class="galerie-grille">
+                <video src="videos/mochi.mp4" muted loop preload="metadata"></video>
+                <video src="videos/book.mp4" muted loop preload="metadata"></video>
+                <video src="videos/bridge.mp4" muted loop preload="metadata"></video>
+                <video src="videos/car.mp4" muted loop preload="metadata"></video>
+                <video src="videos/carpkoi.mp4" muted loop preload="metadata"></video>
+                <video src="videos/study.mp4" muted loop preload="metadata"></video>
+                <video src="videos/flower.mp4" muted loop preload="metadata"></video>
+                <video src="videos/tram.mp4" muted loop preload="metadata"></video>
+                
+            </div>
+        </section>
+
+        <section class="galerie-photos">
+            <h2>some pictures</h2>
+            <div class="galerie-grille">
+                <img src="img/sakura.jpg" alt="Paysage naturel japonais" />
+                <img src="img/sakura.jpg" alt="Paysage naturel japonais" />
+                <img src="img/sakura.jpg" alt="Paysage naturel japonais" />
+                <img src="img/sakura.jpg" alt="Paysage naturel japonais" />
+            </div>
+        </section>
+
+
+
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - created by leia quilichini</p>
+    </footer>
+
+    <script>
+        // Sélectionne toutes les vidéos de la galerie
+        document.querySelectorAll('.galerie-grille video').forEach(video => {
+            video.addEventListener('mouseenter', () => {
+                video.play();
+            });
+            video.addEventListener('mouseleave', () => {
+                video.pause();
+                video.currentTime = 0; // Revenir au début pour afficher la première image
+            });
+        });
+    </script>
+
+</body>
+
+</html>
