@@ -1,0 +1,74 @@
+/* ================================
+   GALLERY - PHOTOS & VIDEOS
+================================== */
+
+.galerie-videos,
+.galerie-photos {
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff0f5;
+}
+
+.galerie-videos h2,
+.galerie-photos h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #c2185b;
+    font-size: 2rem;
+}
+
+.galerie-grille {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.galerie-grille img,
+.galerie-grille video {
+    width: 100%;
+    height: auto;
+    padding: 8px;
+    background-color: #ffffff;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.galerie-grille img:hover,
+.galerie-grille video:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* ================================
+   MUSIC PLAYER
+================================== */
+.now-playing {
+    text-align: center;
+    padding: 2rem 1rem;
+    animation: fadeIn 2s ease-in-out;
+    background-color: #fff0f5;
+}
+
+.now-playing p {
+    font-size: 1.1rem;
+    color: #5c3d4e;
+}
+
+.now-playing a {
+    color: #8a5672;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.now-playing a:hover {
+    text-decoration: underline;
+}
+
+.now-playing audio {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 1rem;
+}
