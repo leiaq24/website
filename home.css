@@ -46,29 +46,18 @@
     font-size: 1.2rem;
     color: #777;
     width: 0;
-    animation: typing 4s steps(35, end) forwards, blink 0.75s step-end 5 forwards;
+    animation: typing 4s steps(48, end) forwards, blink 0.75s step-end 5 forwards;
 }
 
 @keyframes typing {
-    from {
-        width: 0
-    }
-
-    to {
-        width: 35ch
-    }
+    from {width: 0}
+    to {width: 48ch}
 }
 
 @keyframes blink {
-
     0%,
-    50% {
-        border-color: #6b4c59;
-    }
-
-    100% {
-        border-color: transparent;
-    }
+    50% {border-color: #6b4c59}
+    100% {border-color: transparent;}
 }
 
 /* ================================
