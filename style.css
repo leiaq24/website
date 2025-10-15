@@ -7,11 +7,21 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: "Segoe UI", sans-serif;
     background-color: #f8f4f4;
     color: #333;
     animation: fadeIn 1s;
+    display : flex;
+    flex-direction: column;
+}
+
+main {
+    flex : 1;
 }
 
 @keyframes fadeIn {
@@ -34,25 +44,30 @@ header {
     color: #2e7d32;
     text-align: center;
     padding: 2rem 1rem;
-    border-bottom: 2px solid #c8e6c9;
     animation: fadeIn 1.5s;
 }
 
 header h1 {
+    margin-bottom : 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header h1 a {
     font-size: 2.5rem;
     color: #c2185b;
 }
 
 nav ul {
     list-style: none;
-    padding: 0;
     display: flex;
     justify-content: center;
     gap: 1.5rem;
 }
 
 nav a {
-    text-decoration: none;
     color: #2e7d32;
     font-weight: bold;
     transition: color 0.3s;
@@ -69,7 +84,7 @@ footer {
     background-color: #e8f5e9;
     text-align: center;
     padding: 1rem;
-    color: #2e7d32;
+    color: #333;
     font-size: 0.9rem;
     animation: fadeIn 2.5s ease;
 }

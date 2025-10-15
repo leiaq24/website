@@ -1,51 +1,28 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php require_once('header.php'); ?>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contact</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="contact.css" />
-</head>
-
-<body>
-    <header>
-        <h1>contact</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="aboutEN.html">about me</a></li>
-                <li><a href="galleryEN.html">gallery</a></li>
-                <li><a href="contactFR.html">EN/FR</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
+<main>
         <section class="contact-form">
             <form id="contactForm" action="https://formspree.io/f/mdkzrdlb" method="POST">
-                <label for="name">name :</label>
+                <label for="name">nom :</label>
                 <input type="text" id="name" name="name" required />
 
-                <label for="email">mail :</label>
+                <label for="email">email :</label>
                 <input type="email" id="email" name="email" required />
 
                 <label for="message">message :</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
 
-                <button type="submit">send</button>
+                <button type="submit">envoyer</button>
             </form>
 
-            <!-- Conteneur centrant le message et le bouton -->
             <div id="confirmation-container" style="display:none; text-align:center; margin-top: 1em;">
                 <p id="confirmation" style="color: green; font-weight: bold;">
-                    Thank you for your message, I will reply to you soon!
+                    Merci pour votre message, je vous répondrai rapidement !
                 </p>
 
                 <button id="backHomeBtn"
                     style="margin-top: 1em; border-radius: 25px; padding: 0.5em 1.5em; cursor:pointer;">
-                    <a href="index.html" style="text-decoration:none; color: inherit;">Back to Home</a>
+                    <a href="index.php" style="text-decoration:none; color: inherit;">Retour à l'accueil</a>
                 </button>
             </div>
 
@@ -77,11 +54,6 @@
                 });
             </script>
         </section>
+            </main>
 
-        <footer>
-            <p>&copy; 2025 - created by leia quilichini</p>
-        </footer>
-    </main>
-</body>
-
-</html>
+<?php require_once('footer.php'); ?>

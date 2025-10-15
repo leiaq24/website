@@ -1,6 +1,10 @@
 /* ================================
    CONTACT FORM
 ================================== */
+main {
+    background: linear-gradient(to bottom, #e8f5e9, #fff0f5, #e8f5e9);
+}
+
 .contact-form {
     max-width: 600px;
     margin: 3rem auto;
