@@ -1,10 +1,12 @@
+
+
 /* ================================
    HOME SECTION
 ================================== */
 .intro {
     text-align: center;
     padding: 4rem 2rem;
-    background: linear-gradient(to bottom, #e8f5e9, #fff);
+    background: linear-gradient(to bottom, #e8f5e9, #fff0f5);
     animation: fadeIn 1.5s ease;
 }
 
@@ -66,7 +68,7 @@
 .preview-contact {
     padding: 1rem 1rem;
     text-align: center;
-    background: linear-gradient(to bottom, #fff, #e8f5e9);
+    margin : 100px;
 }
 
 .preview-contact a {

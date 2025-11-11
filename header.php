@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="accueil.css" />
   <link rel="stylesheet" href="apropos.css" />
+  <link rel="stylesheet" href="projet.css" />
   <link rel="stylesheet" href="contact.css" />
 
 </head>
