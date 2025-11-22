@@ -114,3 +114,54 @@
         transform: translateY(0);
     }
 }
+
+
+
+/* ================================
+   COMPÉTENCES PROJET
+================================== */
+.competences-projet {
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.competences-projet h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: #6f9474;
+}
+
+/* Liste en grille */
+.competences-projet ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+/* Carte compétence */
+.competences-projet li {
+    background-color: #c2185b;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    min-width: 180px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.competences-projet li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Lien à l'intérieur de la carte */
+.competences-projet li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}

@@ -1,0 +1,145 @@
+/* ================================
+   PAGE COMPÉTENCE
+================================== */
+.competence-details {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    color: #4b2c3d;
+    text-align: center;
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+.competence-details h2 {
+    font-size: 2.4rem;
+    color: #c2185b;
+    margin-bottom: 1rem;
+}
+
+.competence-details p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #4b2c3d;
+}
+
+/* ================================
+   NIVEAUX DE COMPÉTENCE
+================================== */
+.levels {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 2rem auto;
+}
+
+.level-card {
+    background: white;
+    border-left: 5px solid #c2185b;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.level-card h3 {
+    margin-top: 0;
+    color: #6f9474;
+}
+
+.level-card p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+/* ================================
+   LISTE DES PROJETS
+================================== */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+    margin-top: 2rem;
+}
+
+.project-list li {
+    background-color: #c2185b;
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    min-width: 180px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.project-list li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+}
+
+/* ================================
+   LIEN RETOUR
+================================== */
+.retour {
+    display: inline-block;
+    margin-top: 2.5rem;
+    color: #6f9474;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.retour:hover {
+    color: #4b7c5b;
+}
+
+/* ================================
+   RESPONSIVE
+================================== */
+@media (max-width: 800px) {
+    .levels {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-list li {
+        min-width: 220px;
+    }
+
+    .competence-details h2 {
+        font-size: 2rem;
+    }
+
+    .level-card h3 {
+        font-size: 1.4rem;
+    }
+}
+
+/* ================================
+   ANIMATION D'APPARITION
+================================== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -88,33 +88,3 @@ footer {
     font-size: 0.9rem;
     animation: fadeIn 2.5s ease;
 }
-
-/* ================================
-   RESPONSIVE DESIGN
-================================== */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.8rem;
-    }
-
-    .galerie {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card {
-        width: 80%;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.8rem;
-    }
-
-    .intro {
-        font-size: 0.95rem;
-    }
-}

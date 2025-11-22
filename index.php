@@ -3,7 +3,7 @@
 <main>
     <section class="intro">
       <h2>bienvenue</h2>
-      <p><span class="typed-text">un doux mélange de code, de créativité et de curiosité</span></p>
+      <p><span class="typed-text">à la recherche d'un stage dans le domaine de la data</span></p>
       <a href="apropos.php#portfolio" class="cta">découvrir mes projets</a>
     </section>
 
