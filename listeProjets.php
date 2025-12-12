@@ -16,6 +16,19 @@
 
     ],
 
+    'bd' => [
+        'titre' => 'Conception et Implémentation de base de données',
+        'images' => [
+            'img/bd.png',
+        ],
+        'description' => "Réalisation des Modèles Conceptuel et Physique de Données (Oracle) avec PowerAMC, et implémentation SQL complète avec contraintes et données réalistes.",
+        'details' => "Nous avons conçu et implémenté une base de données Oracle pour gérer les projets et la participation des étudiants, incluant contraintes d’intégrité, clés primaires/étrangères et données réalistes. 
+    Les requêtes SQL complexes ont permis d’extraire et analyser des informations : suivi des projets, participation des étudiants, gestion financière. 
+    L’approche a couvert l’ensemble du cycle : Modèle Conceptuel de Données (MCD), Modèle Logique de Données (MLD) et implémentation physique.",
+        'competences' => ['realiser', 'optimiser'],
+        'realisation' => "Projet réalisé par une équipe de 2 étudiants dans le cadre du BUT Informatique (semestre 1).",
+    ],
+
     'java' => [
         'titre' => 'Application Java',
         'images' => [
@@ -42,19 +55,6 @@
         'realisation' => "Projet réalisé par une équipe de 2 étudiants dans le cadre du BUT Informatique (semestre 2).",
     ],
 
-    'bd' => [
-        'titre' => 'Conception et Implémentation de base de données',
-        'images' => [
-            'img/bd.png',
-        ],
-        'description' => "Réalisation des Modèles Conceptuel et Physique de Données (Oracle) avec PowerAMC, et implémentation SQL complète avec contraintes et données réalistes.",
-        'details' => "Nous avons conçu et implémenté une base de données Oracle pour gérer les projets et la participation des étudiants, incluant contraintes d’intégrité, clés primaires/étrangères et données réalistes. 
-    Les requêtes SQL complexes ont permis d’extraire et analyser des informations : suivi des projets, participation des étudiants, gestion financière. 
-    L’approche a couvert l’ensemble du cycle : Modèle Conceptuel de Données (MCD), Modèle Logique de Données (MLD) et implémentation physique.",
-        'competences' => ['realiser', 'optimiser'],
-        'realisation' => "Projet réalisé par une équipe de 2 étudiants dans le cadre du BUT Informatique (semestre 1).",
-    ],
-
     'blog' => [
         'titre' => "Création d'un blog",
         'images' => [
@@ -66,6 +66,7 @@
         'competences' => ['realiser', 'optimiser'],
         'realisation' => "Projet réalisé par une équipe de 2 étudiants au BUT Informatique (semestre 3).",
     ],
+    
     'beatfriends' => [
         'titre' => 'Réseau social musical',
         'images' => [
