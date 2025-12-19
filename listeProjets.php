@@ -36,7 +36,7 @@
         ],
         'description' => "Dans le cadre de la Fête des Lumières, le but était d’optimiser les trajets des touristes souhaitant réduire leur temps de déplacement entre les différents lieux à visiter.",
         'details' => "Développement d’une application Java Swing permettant d’optimiser les déplacements de touristes pendant la Fête des Lumières grâce à des algorithmes de graphes. L’interface graphique permet de sélectionner les lieux à visiter, de visualiser le chemin le plus court et d’interagir avec la carte. Le projet inclut la modélisation du graphe, l’implémentation de Dijkstra et la gestion des événements de l’interface.",
-        'competences' => ['realiser', 'optimiser', 'collaborer'],
+        'competences' => ['realiser', 'optimiser', 'conduire', 'collaborer'],
         'realisation' => "Projet réalisé par une équipe de 3 étudiants dans le cadre du BUT Informatique (semestre 2)."
     ],
 
@@ -51,7 +51,7 @@
         'details' => "Nous avons conçu et mis en œuvre des tableaux de bord interactifs avec Power BI pour visualiser les ventes, les clients, les coûts et les indicateurs clés. 
     Les données ont été préparées, nettoyées et transformées pour permettre des analyses pertinentes. 
     Le projet s’est conclu par une présentation orale avec démonstration en direct des visualisations et des fonctionnalités des tableaux de bord.",
-        'competences' => ['realiser', 'optimiser'],
+        'competences' => ['gerer', 'optimiser'],
         'realisation' => "Projet réalisé par une équipe de 2 étudiants dans le cadre du BUT Informatique (semestre 2).",
     ],
 
