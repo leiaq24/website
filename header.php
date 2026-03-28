@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Leia Quilichini</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="accueil.css" />
+  <!--<link rel="stylesheet" href="accueil.css" />
   <link rel="stylesheet" href="apropos.css" />
   <link rel="stylesheet" href="projet.css" />
    <link rel="stylesheet" href="competence.css" />
-  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="contact.css" />-->
   
 
 </head>
@@ -21,6 +21,7 @@
         <nav>
       <ul>
         <li><a href="apropos.php">à propos</a></li>
+        <li><a href="apropos.php#portfolio">projets</a></li>
         <li><a href="contact.php">contact</a></li>
       </ul>
     </nav>

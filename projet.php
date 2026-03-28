@@ -2,34 +2,51 @@
 require_once('listeProjets.php');
 require_once('listeCompetences.php');
 
-
-
 $id = $_GET['id'] ?? null;
 
 if (!$id || !isset($projets[$id])) {
-    echo "<h2>Projet introuvable</h2>";
+    echo "<main class='projet-details'><h2>Projet introuvable</h2></main>";
     require_once('footer.php');
     exit;
 }
 
 $projet = $projets[$id];
 ?>
+
 <main class="projet-details">
-    <h2><?= htmlspecialchars($projet['titre']) ?></h2>
 
-    <div class="gallery">
-        <?php foreach ($projet['images'] as $img): ?>
-            <img src="<?= htmlspecialchars($img) ?>" alt="<?= htmlspecialchars($projet['titre']) ?>" class="project-image" />
-        <?php endforeach; ?>
-    </div>
+    <section class="projet-hero">
+        <h2><?= htmlspecialchars($projet['titre']) ?></h2>
+        <a href="apropos.php#portfolio" class="retour">⬅ Retour aux projets</a>
+    </section>
 
-    <p><?= htmlspecialchars($projet['description']) ?></p>
-    <p><?= htmlspecialchars($projet['details']) ?></p>
-    <p><?= htmlspecialchars($projet['realisation']) ?></p>
+    <section class="projet-contenu">
+        <div class="gallery">
+            <?php foreach ($projet['images'] as $img): ?>
+                <img src="<?= htmlspecialchars($img) ?>" alt="<?= htmlspecialchars($projet['titre']) ?>" class="project-image" />
+            <?php endforeach; ?>
+        </div>
 
+        <div class="projet-textes">
+
+            <h3>Description</h3>
+            <p><?= htmlspecialchars($projet['description']) ?></p>
+
+
+
+            <h3>Détails</h3>
+            <p><?= htmlspecialchars($projet['details']) ?></p>
+
+
+
+            <h3>Réalisation</h3>
+            <p><?= htmlspecialchars($projet['realisation']) ?></p>
+
+        </div>
+    </section>
 
     <section class="competences-projet">
-        <h4>Compétences mises en œuvre</h4>
+        <h3>Compétences mises en œuvre</h3>
         <ul>
             <?php foreach ($projet['competences'] as $comp): ?>
                 <li>
@@ -41,12 +58,6 @@ $projet = $projets[$id];
         </ul>
     </section>
 
-
-
-
-    <br><br>
-    <a href="apropos.php#portfolio" class ="retour">⬅ Retour aux projets</a>
 </main>
-
 
 <?php require_once('footer.php'); ?>

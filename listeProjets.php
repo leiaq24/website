@@ -66,7 +66,7 @@
         'competences' => ['realiser', 'optimiser'],
         'realisation' => "Projet réalisé par une équipe de 2 étudiants au BUT Informatique (semestre 3).",
     ],
-    
+
     'beatfriends' => [
         'titre' => 'Réseau social musical',
         'images' => [
@@ -81,4 +81,47 @@ Le projet a été réalisé selon la méthode Agile SCRUM, avec des sprints de 1
         'competences' => ['realiser', 'optimiser', 'collaborer', 'conduire'],
         'realisation' => "Projet réalisé par une équipe de 3 étudiants au BUT Informatique (semestre 3).",
     ],
+
+    'azure' => [
+        'titre' => 'Exploitation de données avec Azure et Power BI',
+        'images' => [
+            'img/azure1.png',
+            'img/azure2.png',
+            'img/powerbi7.png',
+        ],
+        'description' => "Projet de récupération, stockage et visualisation de données issues d’une API publique à l’aide des services Microsoft Azure et Power BI.",
+        'details' => "Ce projet consiste à exploiter une API publique afin de collecter des données, les stocker dans le cloud et les analyser visuellement. 
+Les données sont récupérées automatiquement via Azure Logic Apps et/ou Azure Functions, puis stockées dans Azure Table Storage avec une organisation adaptée pour faciliter leur exploitation.
+
+Les données collectées sont ensuite connectées à Power BI afin de créer des tableaux de bord interactifs et des visualisations pertinentes (graphiques, tableaux, indicateurs) permettant d’analyser les informations obtenues.
+
+Le projet comprend également une phase de planification avec la conception de l’architecture du système (API, services Azure, stockage et connexion avec Power BI) afin de structurer efficacement le flux de données et l’exploitation analytique.",
+        'competences' => ['realiser', 'optimiser', 'conduire'],
+        'realisation' => "Projet réalisé par une équipe de 2 étudiants au BUT Informatique (semestre 4).",
+    ],
+
+    'symfony' => [
+        'titre' => 'Blog en PHP Symfony',
+        'images' => [
+            'img/symfony1.png',
+            'img/symfony2.png',
+            'img/symfony3.png',
+        ],
+        'description' => "blog",
+        'details' => "blog",
+        'competences' => ['realiser'],
+        'realisation' => "Projet réalisé par une équipe de 3 étudiants au BUT Informatique (semestre 4).",
+    ],
+
+    'mission1' => [
+        'titre' => 'mission stage',
+        'images' => [
+            'img/mission.png',
+        ],
+        'description' => "mission",
+        'details' => "mission",
+        'competences' => ['realiser'],
+        'realisation' => "Projet réalisé lors du stage effectué en fin de 2ème année au BUT Informatique",
+    ],
+
 ];
