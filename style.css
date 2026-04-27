@@ -203,15 +203,14 @@ button,
     border-radius: 999px;
     padding: 0.85rem 1.6rem;
     font-weight: 600;
-    cursor: pointer;
     transition: var(--transition);
     box-shadow: var(--shadow-soft);
+    margin : 10px;
 }
 
 .cta:hover,
 button:hover,
 .contact-form button:hover {
-    transform: translateY(-2px);
     background-color: var(--rose);
     color: var(--white);
 }
@@ -221,11 +220,25 @@ button:hover,
     border: 2px solid var(--navy);
     color: var(--navy);
     box-shadow: none;
+    border-radius: 999px;
+    padding: 0.85rem 1.6rem;
+    font-weight: 600;
+    transition: var(--transition);
+    margin : 10px;
+
 }
 
 .cta-secondary:hover {
-    background-color: var(--navy);
+    background-color: var(--rose);
     color: var(--cream);
+}
+
+.cta-tertiary {
+    font-weight: 600;
+    background-color: #F9BEC1;
+    padding : 15px;
+    border : solid 2px #112540;
+    border-radius: 999px;
 }
 
 /* ========================================
@@ -297,7 +310,6 @@ button:hover,
 /* ========================================
    BLOCS D'ACCUEIL
 ======================================== */
-.home-about,
 .home-skills,
 .featured-projects,
 .home-path,
@@ -305,13 +317,6 @@ button:hover,
     padding: 5rem 10%;
 }
 
-.home-about-text {
-    max-width: 850px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.home-about h2,
 .home-skills h2,
 .featured-projects h2,
 .home-path h2,
@@ -319,10 +324,15 @@ button:hover,
     text-align: center;
 }
 
-.home-about p,
 .preview-contact p {
     margin-bottom: 1rem;
     line-height: 1.8;
+}
+
+
+.preview-contact {
+    max-width: 80%;
+  margin: 0 auto;
 }
 
 .skills-grid,
@@ -661,11 +671,9 @@ hr {
     .hero,
     .apropos,
     .contact-form,
-    .home-about,
     .home-skills,
     .featured-projects,
     .home-path,
-    .preview-contact,
     .intro {
         padding-left: 6%;
         padding-right: 6%;
@@ -698,9 +706,6 @@ hr {
         grid-template-columns: 1fr;
     }
 
-    .preview-contact {
-        margin: 0 6% 4rem;
-    }
 }
 
 @media (max-width: 600px) {
@@ -1012,4 +1017,7 @@ hr {
     .competence-hero h2 {
         font-size: 2.2rem;
     }
+}
+ul {
+  list-style-type: none;
 }

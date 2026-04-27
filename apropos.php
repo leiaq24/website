@@ -7,7 +7,7 @@
             <div class="texte">
                 <p>Bonjour ! Je m'appelle <strong>Leia</strong>, j’ai 20 ans et j’étudie actuellement l’informatique
                     au <strong>BUT Informatique de La Doua à Lyon</strong>.</p>
-                <p>J’aime coder et je me débrouille plutôt bien ! À l’avenir, j’aimerais me spécialiser dans
+                <p>J’aime coder et je me débrouille plutôt bien ! Aujourd'hui, je me spécialise dans
                     <strong>la gestion de données</strong>, et mon objectif est de devenir <strong>data analyst</strong> 📊.
                 </p>
                 <p>Au-delà de la tech, j’ai une grande passion pour tout ce qui est artistique — musique, cinéma, photographie, dessin, littérature... Je suis aussi fan de jeux vidéo cozy comme <em>Animal Crossing</em> 🐶</p>
@@ -91,7 +91,7 @@
             <div class="project-card">
                 <a href="projet.php?id=mission1" class="project-link">
                     <img src="img/mission.png" alt="mission" />
-                    <h3>mission de stage</h3>
+                    <h3>CEVA Logistics (bientôt !)</h3>
                 </a>
             </div>
 
@@ -105,9 +105,9 @@
         <div class="timeline">
 
             <div class="timeline-item">
-                <h3>BUT Informatique – Université Lyon1, site de la Doua</h3>
+                <h3>BUT Informatique – Université Lyon 1, site de la Doua</h3>
                 <span class="timeline-date">2024 – aujourd’hui</span>
-                <p>Études en informatique avec un focus sur la donnée, le développement logiciel et les technologies web.</p>
+                <p>Études en informatique avec spécialité Administration, Gestion et Exploitation de Données</p>
             </div>
 
             <div class="timeline-item">
@@ -115,9 +115,9 @@
                 <span class="timeline-date">2023 – 2024</span>
                 <p>Participation hebdomadaire à des sessions en autonomie pour explorer différents domaines de la création numérique. Je me suis concentrée sur :
                 <ul>
-                    <li><strong>Production musicale</strong> – initiation à Logic Pro 🎧</li>
-                    <li><strong>Robotique</strong> – découverte des capteurs et de la programmation physique avec Lego Spike</li>
-                    <li><strong>Programmation</strong> – approfondissement de mes connaissances en Python 🐍</li>
+                    <li><strong>★ Production musicale</strong> – initiation à Logic Pro 🎧</li>
+                    <li><strong>★ Robotique</strong> – découverte des capteurs et de la programmation physique avec Lego Spike</li>
+                    <li><strong>★ Programmation</strong> – approfondissement de mes connaissances en Python 🐍</li>
                 </ul>
                 </p>
             </div>
@@ -127,8 +127,8 @@
                 <span class="timeline-date">Été 2023</span>
                 <p>Programme intensif d’une semaine dédié aux jeunes femmes dans la tech. J’ai renforcé mes compétences en Python en développant :
                 <ul>
-                    <li>Un mini-jeu avec une carte Micro:bit</li>
-                    <li>“Charlotte aux grenades” – un jeu arcade en vue de coté réalisé avec Pygame</li>
+                    <li>★ Un mini-jeu avec une carte Micro:bit</li>
+                    <li>★ “Charlotte aux grenades” – un jeu arcade en vue de coté réalisé avec Pygame 💣</li>
                 </ul>
                 </p>
             </div>
@@ -136,9 +136,9 @@
             <div class="timeline-item">
                 <h3>Baccalauréat Général – Filière Scientifique</h3>
                 <span class="timeline-date">2021 – 2024</span>
-                <p>Obtenu avec mention bien. <br>
-                    Spécialités : <strong>mathématiques</strong> et <strong>numérique et sciences informatiques (NSI)</strong>, <br>
-                    avec sciences de l’ingénieur en première année.</p>
+                <p>Obtenu avec mention bien<br>
+                    Spécialités : Mathématiques et Numérique et Sciences Informatiques (NSI),<br>
+                    avec Sciences de l’Ingénieur en première année</p>
             </div>
 
         </div>

@@ -7,9 +7,8 @@
       <p class="hero-tag">Étudiante en BUT Informatique • Orientation data</p>
       <h1>Bonjour, je suis Leia</h1>
       <p class="hero-subtitle">
-        Passionnée par le développement web, la création de projets numériques
-        et l’univers de la donnée, je suis actuellement à la recherche d’une alternance
-        dans le domaine de la data.
+        Intéressée par l'analyse et la visualisation de données, je suis actuellement à la recherche d’une alternance
+        dans ce domaine à partir de septembre 2026.
       </p>
 
       <div class="hero-buttons">
@@ -20,23 +19,9 @@
 
   </section>
 
-  <section class="home-about">
-    <div class="home-about-text">
-      <h2>Un portfolio pour présenter mon univers</h2>
-      <p>
-        Sur ce site, vous trouverez une présentation de mon parcours,
-        un aperçu de mes projets en informatique ainsi que les domaines
-        qui m’intéressent le plus : le web, la programmation et la data.
-      </p>
-      <p>
-        J’aime créer des interfaces agréables, apprendre de nouvelles technologies
-        et explorer des projets mêlant logique, créativité et analyse.
-      </p>
-    </div>
-  </section>
 
   <section class="home-skills">
-    <h2>Ce que j’aime développer</h2>
+    <h2>Ce que j’aime faire</h2>
     <div class="skills-grid">
       <div class="skill-card">
         <h3>Analyse de données</h3>
@@ -55,7 +40,7 @@
   </section>
 
   <section class="featured-projects">
-    <h2>Quelques projets à découvrir</h2>
+    <h2>Quelques projets</h2>
 
     <div class="projects-preview-grid">
       <div class="project-preview-card">
@@ -92,7 +77,7 @@
   <section class="preview-contact">
     <h2>Envie d’échanger ?</h2>
     <p>
-      Que ce soit pour discuter de mon profil, de mes projets ou d’une opportunité de stage,
+      Que ce soit pour discuter de mon profil, de mes projets ou d’une opportunité d'alternace,
       n’hésitez pas à me contacter.
     </p>
     <a href="contact.php" class="cta-tertiary">Me contacter</a>
