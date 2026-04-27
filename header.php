@@ -17,12 +17,12 @@
 
 <body>
     <header>
-        <h1><a href="index.php">mon blog</a></h1>
+        <h1><a href="index.php">Portfolio</a></h1>
         <nav>
       <ul>
-        <li><a href="apropos.php">à propos</a></li>
-        <li><a href="apropos.php#portfolio">projets</a></li>
-        <li><a href="contact.php">contact</a></li>
+        <li><a href="apropos.php">À propos</a></li>
+        <li><a href="apropos.php#portfolio">Projets</a></li>
+        <li><a href="contact.php">Contact</a></li>
       </ul>
     </nav>
     </header>

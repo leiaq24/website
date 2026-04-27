@@ -7,7 +7,7 @@
     --teal: #7BAEB6;
     --rose: #CD7B89;
     --pink: #F9BEC1;
-    --cream: #F1EBDD;
+    --cream: #ffffff;
 
     --text: #112540;
     --text-soft: #334866;
@@ -95,6 +95,12 @@ header {
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
+
+
+    display: flex;
+    justify-content: space-between; /* espace entre gauche et droite */
+    align-items: center; /* alignement vertical */
+    padding: 20px 10%;
 }
 
 header h1 {

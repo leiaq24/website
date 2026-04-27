@@ -60,4 +60,3 @@ $projet = $projets[$id];
 
 </main>
 
-<?php require_once('footer.php'); ?>
