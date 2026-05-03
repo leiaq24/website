@@ -43,27 +43,28 @@
     <h2>Quelques projets</h2>
 
     <div class="projects-preview-grid">
-      <div class="project-preview-card">
-        <a href="projet.php?id=charlotte" class="project-link">
-          <img src="img/charlotte1.png" alt="Jeu Charlotte aux grenades">
-          <h3>Charlotte aux grenades</h3>
-          <p>Un jeu développé en Python avec Pygame dans le cadre d’un projet créatif.</p>
-        </a>
-      </div>
 
       <div class="project-preview-card">
         <a href="projet.php?id=powerbi" class="project-link">
-          <img src="img/powerBI1.png" alt="Projet Power BI">
+          <img src="img/powerBI1.jpg" alt="Projet Power BI">
           <h3>Analyse & visualisation de données</h3>
-          <p>Un tableau de bord conçu pour mettre en valeur des données de façon claire et pertinente.</p>
+          <p>Un tableau de bord conçu pour mettre en valeur des données de façon claire et pertinente</p>
         </a>
       </div>
 
       <div class="project-preview-card">
-        <a href="projet.php?id=blog" class="project-link">
-          <img src="img/blog.png" alt="Blog PHP">
-          <h3>Blog en PHP</h3>
-          <p>Un projet web dynamique permettant de travailler la structure, le design et la logique côté serveur.</p>
+        <a href="projet.php?id=ceva" class="project-link">
+          <img src="img/ceva.png" alt="CEVA Logistics">
+          <h3>CEVA Logistics</h3>
+          <p>Stage de 2 mois en tant que Data Analyst</p>
+        </a>
+      </div>
+
+      <div class="project-preview-card">
+        <a href="projet.php?id=symfony" class="project-link">
+          <img src="img/symfony1.png" alt="Blog PHP Symfony">
+          <h3>Blog en PHP Symfony</h3>
+          <p>Un projet web dynamique permettant de travailler la structure, le design et la logique Symfony</p>
         </a>
       </div>
     </div>

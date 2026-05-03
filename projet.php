@@ -22,7 +22,8 @@ $projet = $projets[$id];
 
     <section class="projet-contenu">
         <div class="gallery">
-            <?php foreach ($projet['images'] as $img): ?>
+            <?php foreach (array_slice($projet['images'], 1) as $img): ?>
+                
                 <img src="<?= htmlspecialchars($img) ?>" alt="<?= htmlspecialchars($projet['titre']) ?>" class="project-image" />
             <?php endforeach; ?>
         </div>

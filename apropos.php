@@ -33,7 +33,7 @@
 
             <div class="project-card">
                 <a href="projet.php?id=charlotte" class="project-link">
-                    <img src="img/charlotte1.png" alt="Jeu Charlotte aux grenades" />
+                    <img src="img/charlotte.png" alt="Jeu Charlotte aux grenades" />
                     <h3>Charlotte aux grenades</h3>
                 </a>
             </div>
@@ -47,14 +47,14 @@
 
             <div class="project-card">
                 <a href="projet.php?id=powerbi" class="project-link">
-                    <img src="img/powerBI1.png" alt="Extrait tableau de bord PowerBI" />
+                    <img src="img/powerBI1.jpg" alt="Extrait tableau de bord PowerBI" />
                     <h3>Analyse & Visualisation de données</h3>
                 </a>
             </div>
 
             <div class="project-card">
                 <a href="projet.php?id=bd" class="project-link">
-                    <img src="img/bd.png" alt="Capture écran BD" />
+                    <img src="img/bd.jpg" alt="Capture écran BD" />
                     <h3>Conception et Implémentation de base de données</h3>
                 </a>
             </div>
@@ -68,7 +68,7 @@
 
             <div class="project-card">
                 <a href="projet.php?id=beatfriends" class="project-link">
-                    <img src="img/beatfriends1.png" alt="Page accueil" />
+                    <img src="img/beatfriends.png" alt="Page accueil" />
                     <h3>Réseau social musical</h3>
                 </a>
             </div>
@@ -89,8 +89,8 @@
             </div>
 
             <div class="project-card">
-                <a href="projet.php?id=mission1" class="project-link">
-                    <img src="img/mission.png" alt="mission" />
+                <a href="projet.php?id=ceva" class="project-link">
+                    <img src="img/ceva.png" alt="ceva" />
                     <h3>CEVA Logistics (bientôt !)</h3>
                 </a>
             </div>

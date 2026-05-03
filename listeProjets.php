@@ -2,6 +2,7 @@
     'charlotte' => [
         'titre' => 'Charlotte aux grenades',
         'images' => [
+            'img/charlotte.png',
             'img/charlotte1.png',
             'img/charlotte2.png',
         ],
@@ -19,7 +20,7 @@
     'bd' => [
         'titre' => 'Conception et Implémentation de base de données',
         'images' => [
-            'img/bd.png',
+            'img/bd.jpg',
         ],
         'description' => "Réalisation des Modèles Conceptuel et Physique de Données (Oracle) avec PowerAMC, et implémentation SQL complète avec contraintes et données réalistes.",
         'details' => "Nous avons conçu et implémenté une base de données Oracle pour gérer les projets et la participation des étudiants, incluant contraintes d’intégrité, clés primaires/étrangères et données réalistes. 
@@ -33,6 +34,8 @@
         'titre' => 'Application Java',
         'images' => [
             'img/carte.png',
+            'img/carte1.png',
+            'img/carte2.jpg',
         ],
         'description' => "Dans le cadre de la Fête des Lumières, le but était d’optimiser les trajets des touristes souhaitant réduire leur temps de déplacement entre les différents lieux à visiter.",
         'details' => "Développement d’une application Java Swing permettant d’optimiser les déplacements de touristes pendant la Fête des Lumières grâce à des algorithmes de graphes. L’interface graphique permet de sélectionner les lieux à visiter, de visualiser le chemin le plus court et d’interagir avec la carte. Le projet inclut la modélisation du graphe, l’implémentation de Dijkstra et la gestion des événements de l’interface.",
@@ -43,9 +46,9 @@
     'powerbi' => [
         'titre' => 'Analyse & Visualisation de données',
         'images' => [
-            'img/powerBI1.png',
-            'img/powerBI2.png',
-            'img/powerBI3.png'
+            'img/powerBI1.jpg',
+            'img/powerBI2.jpg',
+            'img/powerBI3.jpg'
         ],
         'description' => "Création de tableaux de bord Power BI pour l’entreprise fictive Adventure Works Cycles, permettant d’analyser les ventes, les clients clés et les coûts.",
         'details' => "Nous avons conçu et mis en œuvre des tableaux de bord interactifs avec Power BI pour visualiser les ventes, les clients, les coûts et les indicateurs clés. 
@@ -59,6 +62,7 @@
         'titre' => "Création d'un blog",
         'images' => [
             'img/blog.png',
+            'img/blog1.png',
         ],
         'description' => "Un mini-blog web développé en PHP, conçu pour gérer des articles, des utilisateurs et des commentaires.",
         'details' => "Nous avons développé un blog web permettant : la création de comptes utilisateurs, la publication d’articles, la consultation des articles des autres et l’ajout de commentaires. 
@@ -70,6 +74,7 @@
     'beatfriends' => [
         'titre' => 'Réseau social musical',
         'images' => [
+            'img/beatfriends.png',
             'img/beatfriends1.png',
             'img/beatfriends2.png',
             'img/beatfriends3.png',
@@ -107,16 +112,22 @@ Le projet comprend également une phase de planification avec la conception de l
             'img/symfony2.png',
             'img/symfony3.png',
         ],
-        'description' => "blog",
-        'details' => "blog",
-        'competences' => ['realiser'],
+        'description' => "Développement d’une application web collaborative de gestion de listes de courses avec Symfony.",
+        'details' => "Ce projet consiste à développer une application web complète avec le framework Symfony permettant aux utilisateurs de créer, gérer et partager des listes de courses.
+L’application intègre un système d’authentification sécurisé (inscription, connexion, gestion de profil) ainsi qu’un espace utilisateur permettant de consulter et organiser ses listes de courses.
+Chaque liste contient des articles avec des quantités et un suivi de leur statut (acheté ou non). Les utilisateurs peuvent ajouter, supprimer et modifier les éléments de leurs listes.
+Un espace administrateur permet de gérer les articles et leurs catégories via des interfaces CRUD.
+Des statistiques sont également calculées automatiquement (total des dépenses, prix moyen des articles, article le plus cher et le moins cher, répartition par type d’article), afin d’apporter une vision claire des dépenses.",
+        'competences' => ['realiser', 'collaborer', 'conduire'],
         'realisation' => "Projet réalisé par une équipe de 3 étudiants au BUT Informatique (semestre 4).",
     ],
 
-    'mission1' => [
+    'ceva' => [
         'titre' => 'mission stage',
         'images' => [
-            'img/mission.png',
+            'img/ceva.png',
+            'img/ceva1.png',
+            'img/ceva2.png'
         ],
         'description' => "mission",
         'details' => "mission",
