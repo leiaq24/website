@@ -91,7 +91,7 @@
             <div class="project-card">
                 <a href="projet.php?id=ceva" class="project-link">
                     <img src="img/ceva.png" alt="ceva" />
-                    <h3>CEVA Logistics (bientôt !)</h3>
+                    <h3>CEVA Logistics</h3>
                 </a>
             </div>
 

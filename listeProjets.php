@@ -134,6 +134,6 @@ Enfin, j’ai développé plusieurs automatisations avec Power Automate pour sim
 - un email récapitulatif est envoyé aux personnes concernées ;",
 
         'competences' => ['realiser', 'optimiser', 'collaborer'],
-        'realisation' => "Projets réalisés lors dze mon stage effectué en fin de 2ème année au BUT Informatique",
+        'realisation' => "Projets réalisés lors de mon stage effectué en fin de 2ème année au BUT Informatique",
     ],
 ];
