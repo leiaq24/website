@@ -1,7 +1,6 @@
 <?php require_once('header.php'); ?>
 
 <main>
-
   <section class="hero">
     <div class="hero-text">
       <p class="hero-tag">Étudiante en BUT Informatique • Orientation data</p>
@@ -18,7 +17,6 @@
     </div>
 
   </section>
-
 
   <section class="home-skills">
     <h2>Ce que j’aime faire</h2>
@@ -56,7 +54,7 @@
         <a href="projet.php?id=ceva" class="project-link">
           <img src="img/ceva.png" alt="CEVA Logistics">
           <h3>CEVA Logistics</h3>
-          <p>Stage de 2 mois en tant que Data Analyst</p>
+          <p>Stage de 2 mois en tant que Data Analyst QHSE</p>
         </a>
       </div>
 
@@ -74,7 +72,6 @@
     </div>
   </section>
 
-
   <section class="preview-contact">
     <h2>Envie d’échanger ?</h2>
     <p>
@@ -83,5 +80,4 @@
     </p>
     <a href="contact.php" class="cta-tertiary">Me contacter</a>
   </section>
-
 </main>

@@ -16,7 +16,6 @@
         'realisation' => "Projet développé seule dans le cadre du stage Girls Can Code!, avec l'accompagnement de professionnels.",
 
     ],
-
     'bd' => [
         'titre' => 'Conception et Implémentation de base de données',
         'images' => [
@@ -29,7 +28,6 @@
         'competences' => ['realiser', 'optimiser'],
         'realisation' => "Projet réalisé par une équipe de 2 étudiants dans le cadre du BUT Informatique (semestre 1).",
     ],
-
     'java' => [
         'titre' => 'Application Java',
         'images' => [
@@ -42,7 +40,6 @@
         'competences' => ['realiser', 'optimiser', 'conduire', 'collaborer'],
         'realisation' => "Projet réalisé par une équipe de 3 étudiants dans le cadre du BUT Informatique (semestre 2)."
     ],
-
     'powerbi' => [
         'titre' => 'Analyse & Visualisation de données',
         'images' => [
@@ -57,7 +54,6 @@
         'competences' => ['gerer', 'optimiser'],
         'realisation' => "Projet réalisé par une équipe de 2 étudiants dans le cadre du BUT Informatique (semestre 2).",
     ],
-
     'blog' => [
         'titre' => "Création d'un blog",
         'images' => [
@@ -70,7 +66,6 @@
         'competences' => ['realiser', 'optimiser'],
         'realisation' => "Projet réalisé par une équipe de 2 étudiants au BUT Informatique (semestre 3).",
     ],
-
     'beatfriends' => [
         'titre' => 'Réseau social musical',
         'images' => [
@@ -86,7 +81,6 @@ Le projet a été réalisé selon la méthode Agile SCRUM, avec des sprints de 1
         'competences' => ['realiser', 'optimiser', 'collaborer', 'conduire'],
         'realisation' => "Projet réalisé par une équipe de 3 étudiants au BUT Informatique (semestre 3).",
     ],
-
     'azure' => [
         'titre' => 'Exploitation de données avec Azure et Power BI',
         'images' => [
@@ -104,7 +98,6 @@ Le projet comprend également une phase de planification avec la conception de l
         'competences' => ['realiser', 'optimiser', 'conduire'],
         'realisation' => "Projet réalisé par une équipe de 2 étudiants au BUT Informatique (semestre 4).",
     ],
-
     'symfony' => [
         'titre' => 'Blog en PHP Symfony',
         'images' => [
@@ -121,18 +114,16 @@ Des statistiques sont également calculées automatiquement (total des dépenses
         'competences' => ['realiser', 'collaborer', 'conduire'],
         'realisation' => "Projet réalisé par une équipe de 3 étudiants au BUT Informatique (semestre 4).",
     ],
-
     'ceva' => [
-        'titre' => 'mission stage',
+        'titre' => 'CEVA Logistics',
         'images' => [
             'img/ceva.png',
             'img/ceva1.png',
             'img/ceva2.png',
         ],
-        'description' => "mission",
-        'details' => "mission",
+        'description' => "CEVA Logistics",
+        'details' => "CEVA Logistics",
         'competences' => ['realiser'],
-        'realisation' => "Projet réalisé lors du stage effectué en fin de 2ème année au BUT Informatique",
+        'realisation' => "Projets réalisés lors dze mon stage effectué en fin de 2ème année au BUT Informatique",
     ],
-
 ];

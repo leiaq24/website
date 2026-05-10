@@ -79,7 +79,7 @@
                     <h3>Azure</h3>
                 </a>
             </div>
-            
+
 
             <div class="project-card">
                 <a href="projet.php?id=symfony" class="project-link">
@@ -94,7 +94,6 @@
                     <h3>CEVA Logistics (bientôt !)</h3>
                 </a>
             </div>
-
 
         </div>
         <br>
@@ -144,6 +143,4 @@
         </div>
     </section>
 
-
 </main>
-
