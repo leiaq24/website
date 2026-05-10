@@ -2,9 +2,9 @@
     'charlotte' => [
         'titre' => 'Charlotte aux grenades',
         'images' => [
-            'img/charlotte.png',
-            'img/charlotte1.png',
-            'img/charlotte2.png',
+            'img/charlotte.PNG',
+            'img/charlotte1.PNG',
+            'img/charlotte2.PNG',
         ],
         'details' => "Jeu de plateforme 2D développé en Python avec la librairie Pygame.
         Le personnage de Charlotte est animé grâce à des sprites dédiés 
@@ -33,8 +33,8 @@
     'java' => [
         'titre' => 'Application Java',
         'images' => [
-            'img/carte.png',
-            'img/carte1.png',
+            'img/carte.PNG',
+            'img/carte1.PNG',
             'img/carte2.jpg',
         ],
         'description' => "Dans le cadre de la Fête des Lumières, le but était d’optimiser les trajets des touristes souhaitant réduire leur temps de déplacement entre les différents lieux à visiter.",
@@ -61,8 +61,8 @@
     'blog' => [
         'titre' => "Création d'un blog",
         'images' => [
-            'img/blog.png',
-            'img/blog1.png',
+            'img/blog.PNG',
+            'img/blog1.PNG',
         ],
         'description' => "Un mini-blog web développé en PHP, conçu pour gérer des articles, des utilisateurs et des commentaires.",
         'details' => "Nous avons développé un blog web permettant : la création de comptes utilisateurs, la publication d’articles, la consultation des articles des autres et l’ajout de commentaires. 
@@ -75,7 +75,7 @@
         'titre' => 'Réseau social musical',
         'images' => [
             'img/beatfriends.png',
-            'img/beatfriends1.png',
+            'img/beatfriends1.PNG',
             'img/beatfriends2.png',
             'img/beatfriends3.png',
         ],
@@ -90,9 +90,9 @@ Le projet a été réalisé selon la méthode Agile SCRUM, avec des sprints de 1
     'azure' => [
         'titre' => 'Exploitation de données avec Azure et Power BI',
         'images' => [
-            'img/azure1.png',
-            'img/azure2.png',
-            'img/powerbi7.png',
+            'img/azure1.PNG',
+            'img/azure2.PNG',
+            'img/powerbi7.PNG',
         ],
         'description' => "Projet de récupération, stockage et visualisation de données issues d’une API publique à l’aide des services Microsoft Azure et Power BI.",
         'details' => "Ce projet consiste à exploiter une API publique afin de collecter des données, les stocker dans le cloud et les analyser visuellement. 
@@ -109,8 +109,8 @@ Le projet comprend également une phase de planification avec la conception de l
         'titre' => 'Blog en PHP Symfony',
         'images' => [
             'img/symfony1.png',
-            'img/symfony2.png',
-            'img/symfony3.png',
+            'img/symfony2.PNG',
+            'img/symfony3.PNG',
         ],
         'description' => "Développement d’une application web collaborative de gestion de listes de courses avec Symfony.",
         'details' => "Ce projet consiste à développer une application web complète avec le framework Symfony permettant aux utilisateurs de créer, gérer et partager des listes de courses.

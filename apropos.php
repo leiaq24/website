@@ -33,7 +33,7 @@
 
             <div class="project-card">
                 <a href="projet.php?id=charlotte" class="project-link">
-                    <img src="img/charlotte.png" alt="Jeu Charlotte aux grenades" />
+                    <img src="img/charlotte.PNG" alt="Jeu Charlotte aux grenades" />
                     <h3>Charlotte aux grenades</h3>
                 </a>
             </div>
