@@ -31,12 +31,12 @@ $projet = $projets[$id];
         <div class="projet-textes">
 
             <h3>Description</h3>
-            <p><?= htmlspecialchars($projet['description']) ?></p>
+            <p><?= nl2br($projet['description']) ?></p>
 
 
 
             <h3>Détails</h3>
-            <p><?= htmlspecialchars($projet['details']) ?></p>
+            <p><?= nl2br($projet['details']) ?></p>
 
 
 

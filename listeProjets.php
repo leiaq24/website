@@ -121,9 +121,19 @@ Des statistiques sont également calculées automatiquement (total des dépenses
             'img/ceva1.png',
             'img/ceva2.png',
         ],
-        'description' => "CEVA Logistics",
-        'details' => "CEVA Logistics",
-        'competences' => ['realiser'],
+        'description' => "Participation à l’amélioration et à l’automatisation des processus QHSE à l’aide de Power BI, Power Automate, Microsoft Forms et SharePoint.",
+        'details' => "Dans le cadre de mon stage chez CEVA Logistics au sein du pôle QHSE France, sous la supervision de Ludovic Laracine (Data Analyst QHSE France), j’ai participé à plusieurs projets liés à la collecte, l’analyse et l’automatisation des données.
+
+        J’ai conçu des formulaires Microsoft Forms et des Microsoft Lists afin de collecter des données terrain, puis automatisé leur intégration et leur exploitation dans Power BI pour créer des tableaux de bord interactifs et faciliter le suivi des indicateurs.
+
+Une partie importante du stage a consisté à améliorer et moderniser plusieurs dashboards existants, notamment ceux liés aux audits clients, aux audits sous-traitants ainsi qu’aux actions de prévention, afin d’optimiser leur lisibilité, leur ergonomie et la pertinence des indicateurs affichés.
+
+Enfin, j’ai développé plusieurs automatisations avec Power Automate pour simplifier les processus internes et garantir la cohérence des données. Par exemple, lors d’une nouvelle demande de changement :
+- un identifiant unique est généré automatiquement selon une nomenclature définie ;
+- un dossier est créé automatiquement dans le répertoire approprié afin de déposer directement les documents nécessaires à la demande de changement ;
+- un email récapitulatif est envoyé aux personnes concernées ;",
+
+        'competences' => ['realiser', 'optimiser', 'collaborer'],
         'realisation' => "Projets réalisés lors dze mon stage effectué en fin de 2ème année au BUT Informatique",
     ],
 ];

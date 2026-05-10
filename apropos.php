@@ -33,7 +33,7 @@
 
             <div class="project-card">
                 <a href="projet.php?id=charlotte" class="project-link">
-                    <img src="img/charlotte.PNG" alt="Jeu Charlotte aux grenades" />
+                    <img src="img/charlotte.png" alt="Jeu Charlotte aux grenades" />
                     <h3>Charlotte aux grenades</h3>
                 </a>
             </div>
@@ -107,6 +107,8 @@
                 <h3>BUT Informatique – Université Lyon 1, site de la Doua</h3>
                 <span class="timeline-date">2024 – aujourd’hui</span>
                 <p>Études en informatique avec spécialité Administration, Gestion et Exploitation de Données</p>
+                <p>Actuellement en Stage pour 2 mois chez CEVA Logistics dans le service QHSE</p>
+                <p>Recherche d'une alternance pour ma troisième année</p>
             </div>
 
             <div class="timeline-item">
