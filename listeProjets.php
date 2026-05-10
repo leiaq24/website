@@ -48,7 +48,7 @@
         'images' => [
             'img/powerBI1.jpg',
             'img/powerBI2.jpg',
-            'img/powerBI3.jpg'
+            'img/powerBI3.jpg',
         ],
         'description' => "Création de tableaux de bord Power BI pour l’entreprise fictive Adventure Works Cycles, permettant d’analyser les ventes, les clients clés et les coûts.",
         'details' => "Nous avons conçu et mis en œuvre des tableaux de bord interactifs avec Power BI pour visualiser les ventes, les clients, les coûts et les indicateurs clés. 
@@ -127,7 +127,7 @@ Des statistiques sont également calculées automatiquement (total des dépenses
         'images' => [
             'img/ceva.png',
             'img/ceva1.png',
-            'img/ceva2.png'
+            'img/ceva2.png',
         ],
         'description' => "mission",
         'details' => "mission",
