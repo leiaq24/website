@@ -54,7 +54,7 @@
 
       <div class="project-preview-card">
         <a href="projet.php?id=ceva" class="project-link">
-          <img src="img/ceva.png" alt="CEVA Logistics">
+          <img src="img/ceva.PNG" alt="CEVA Logistics">
           <h3>CEVA Logistics</h3>
           <p>Stage de 2 mois en tant que Data Analyst</p>
         </a>
