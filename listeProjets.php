@@ -125,9 +125,9 @@ Des statistiques sont également calculées automatiquement (total des dépenses
     'ceva' => [
         'titre' => 'mission stage',
         'images' => [
-            'img/ceva.png',
-            'img/ceva1.png',
-            'img/ceva2.png'
+            'img/ceva.PNG',
+            'img/ceva1.PNG',
+            'img/ceva2.PNG'
         ],
         'description' => "mission",
         'details' => "mission",
