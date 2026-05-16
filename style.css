@@ -90,10 +90,9 @@ header {
     z-index: 1000;
     backdrop-filter: blur(10px);
 
-
     display: flex;
-    justify-content: space-between; /* espace entre gauche et droite */
-    align-items: center; /* alignement vertical */
+    justify-content: space-between;
+    align-items: center;
     padding: 20px 10%;
 }
 
@@ -873,4 +872,234 @@ hr {
 .project-list li a:hover {
     background-color: var(--navy);
     color: var(--cream);
+}
+
+
+/* ========================================
+   RESPONSIVE — TABLETTE (≤ 768px)
+======================================== */
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+        padding: 1rem 5%;
+    }
+
+    header h1 {
+        margin-bottom: 0;
+    }
+
+    header h1 a {
+        font-size: 1.8rem;
+    }
+
+    nav ul {
+        gap: 1.2rem;
+    }
+
+    /* Hero */
+    .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 3rem 5%;
+        gap: 2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2.8rem;
+    }
+
+    .hero-card {
+        display: none; /* cache la carte déco sur tablette */
+    }
+
+    /* Grilles 3 colonnes → 2 colonnes */
+    .skills-grid,
+    .projects-preview-grid,
+    .path-grid,
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Sections padding */
+    .home-skills,
+    .featured-projects,
+    .home-path,
+    .preview-contact,
+    .apropos,
+    .portfolio,
+    .experience,
+    .contact-form,
+    .projet-details,
+    .competence-details {
+        padding: 3rem 5%;
+    }
+
+    /* Preview contact */
+    .preview-contact {
+        margin: 0 5% 3rem;
+        max-width: 90%;
+    }
+
+    /* Présentation à propos */
+    .presentation {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .presentation img {
+        max-width: 220px;
+        margin: 0 auto;
+    }
+
+    .texte p {
+        font-size: 1.1rem;
+    }
+
+    /* Titres */
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2.6rem;
+    }
+
+    .projet-hero h2,
+    .competence-hero h2 {
+        font-size: 2.2rem;
+    }
+}
+
+
+/* ========================================
+   RESPONSIVE — MOBILE (≤ 480px)
+======================================== */
+@media (max-width: 480px) {
+
+    /* Header */
+    header {
+        padding: 1rem 4%;
+    }
+
+    header h1 a {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        gap: 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    /* Hero */
+    .hero {
+        padding: 2.5rem 4%;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .hero-tag {
+        font-size: 0.85rem;
+        padding: 0.5rem 0.85rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-buttons .cta,
+    .hero-buttons .cta-secondary {
+        width: 100%;
+        text-align: center;
+        margin: 4px 0;
+    }
+
+    /* Grilles → 1 colonne */
+    .skills-grid,
+    .projects-preview-grid,
+    .path-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Sections padding */
+    .home-skills,
+    .featured-projects,
+    .home-path,
+    .preview-contact,
+    .apropos,
+    .portfolio,
+    .experience,
+    .contact-form,
+    .projet-details,
+    .competence-details {
+        padding: 2.5rem 4%;
+    }
+
+    /* Preview contact */
+    .preview-contact {
+        margin: 0 4% 2.5rem;
+        max-width: 92%;
+        border-radius: var(--radius-md);
+    }
+
+    /* Titres */
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .projet-hero h2,
+    .competence-hero h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Présentation à propos */
+    .presentation img {
+        max-width: 180px;
+    }
+
+    .texte p {
+        font-size: 1rem;
+    }
+
+    /* Formulaire contact */
+    .contact-form {
+        padding: 2rem 4%;
+    }
+
+    .contact-form form {
+        padding: 1.5rem;
+    }
+
+    /* Galerie projet */
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+    /* Images projets */
+    .project-preview-card img,
+    .project-card img {
+        height: 180px;
+    }
+
+    /* Boutons globaux */
+    .cta,
+    button {
+        padding: 0.75rem 1.2rem;
+        font-size: 0.95rem;
+    }
 }
