@@ -26,7 +26,9 @@
 /* ========================================
    RESET & BASE
 ======================================== */
-* {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -46,7 +48,6 @@ body {
     animation: fadeInBody 0.8s ease;
 }
 
-
 img {
     max-width: 100%;
     display: block;
@@ -58,24 +59,45 @@ a {
 }
 
 ul {
-    padding-left: 1.2rem;
-    list-style-type: none;
+    list-style: none;
+    padding-left: 0;
 }
-
 
 section {
     width: 100%;
 }
 
+hr {
+    border: none;
+    border-top: 1px solid rgba(130, 150, 183, 0.45);
+    margin: 3rem 0;
+}
+
 @keyframes fadeInBody {
-    from {
-        opacity: 0;
-        transform: translateY(6px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ========================================
+   TYPOGRAPHIE
+======================================== */
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: var(--navy);
+    margin-bottom: 1.2rem;
+}
+
+h3 {
+    color: var(--navy);
+}
+
+p {
+    color: var(--text-soft);
+    font-size: 1rem;
 }
 
 /* ========================================
@@ -84,12 +106,10 @@ section {
 header {
     background-color: rgba(241, 235, 221, 0.95);
     border-bottom: 1px solid var(--slate);
-    padding: 1.5rem 10%;
     position: sticky;
     top: 0;
     z-index: 1000;
     backdrop-filter: blur(10px);
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -97,8 +117,7 @@ header {
 }
 
 header h1 {
-    text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
 header h1 a {
@@ -114,7 +133,6 @@ header h1 a:hover {
 }
 
 nav ul {
-    list-style: none;
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -160,30 +178,6 @@ footer {
 }
 
 /* ========================================
-   TITRES & TEXTES GLOBAUX
-======================================== */
-h1,
-h2,
-h3 {
-    line-height: 1.2;
-}
-
-h2 {
-    font-size: 2.2rem;
-    color: var(--navy);
-    margin-bottom: 1.2rem;
-}
-
-h3 {
-    color: var(--navy);
-}
-
-p {
-    color: var(--text-soft);
-    font-size: 1rem;
-}
-
-/* ========================================
    BOUTONS
 ======================================== */
 .cta,
@@ -198,7 +192,7 @@ button,
     font-weight: 600;
     transition: var(--transition);
     box-shadow: var(--shadow-soft);
-    margin : 10px;
+    margin: 10px;
 }
 
 .cta:hover,
@@ -209,6 +203,7 @@ button:hover,
 }
 
 .cta-secondary {
+    display: inline-block;
     background-color: transparent;
     border: 2px solid var(--navy);
     color: var(--navy);
@@ -217,25 +212,32 @@ button:hover,
     padding: 0.85rem 1.6rem;
     font-weight: 600;
     transition: var(--transition);
-    margin : 10px;
-
+    margin: 10px;
 }
 
 .cta-secondary:hover {
     background-color: var(--rose);
     color: var(--cream);
+    border-color: var(--rose);
 }
 
 .cta-tertiary {
+    display: inline-block;
     font-weight: 600;
-    background-color: #F9BEC1;
-    padding : 15px;
-    border : solid 2px #112540;
+    background-color: var(--pink);
+    padding: 15px 24px;
+    border: solid 2px var(--navy);
     border-radius: 999px;
+    transition: var(--transition);
+}
+
+.cta-tertiary:hover {
+    background-color: var(--navy);
+    color: var(--cream);
 }
 
 /* ========================================
-   PAGE D'ACCUEIL
+   PAGE D'ACCUEIL — HERO
 ======================================== */
 .hero {
     min-height: calc(100vh - 80px);
@@ -301,7 +303,7 @@ button:hover,
 }
 
 /* ========================================
-   BLOCS D'ACCUEIL
+   PAGE D'ACCUEIL — SECTIONS
 ======================================== */
 .home-skills,
 .featured-projects,
@@ -317,6 +319,7 @@ button:hover,
     text-align: center;
 }
 
+/* Grilles communes */
 .skills-grid,
 .projects-preview-grid,
 .path-grid {
@@ -326,6 +329,7 @@ button:hover,
     margin-top: 2rem;
 }
 
+/* Cards communes */
 .skill-card,
 .path-card {
     background-color: var(--white);
@@ -348,9 +352,7 @@ button:hover,
     color: var(--rose);
 }
 
-/* ========================================
-   APERÇU PROJETS ACCUEIL
-======================================== */
+/* Preview projets accueil */
 .project-preview-card {
     background-color: var(--white);
     border-radius: var(--radius-md);
@@ -382,6 +384,7 @@ button:hover,
     margin-top: 2rem;
 }
 
+/* Bloc "Envie d'échanger" */
 .preview-contact {
     text-align: center;
     background-color: var(--teal);
@@ -394,35 +397,6 @@ button:hover,
     max-width: 700px;
     margin: 0 auto 1.5rem;
     color: var(--navy);
-}
-
-/* ========================================
-   ANCIENNE INTRO SI TU LA GARDES
-======================================== */
-.intro {
-    min-height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem 10%;
-    text-align: center;
-    background: linear-gradient(135deg, var(--cream) 0%, var(--pink) 100%);
-}
-
-.intro h2 {
-    font-size: 3rem;
-    margin-bottom: 1rem;
-}
-
-.intro p {
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
-}
-
-.typed-text {
-    color: var(--rose);
-    font-weight: 700;
 }
 
 /* ========================================
@@ -458,7 +432,7 @@ button:hover,
 }
 
 /* ========================================
-   PORTFOLIO / PROJETS
+   PORTFOLIO
 ======================================== */
 .portfolio {
     padding: 5rem 10%;
@@ -502,10 +476,8 @@ button:hover,
     display: block;
 }
 
-hr {
-    border: none;
-    border-top: 1px solid rgba(130, 150, 183, 0.45);
-    margin: 3rem 0;
+.project-link:hover h3 {
+    color: var(--rose);
 }
 
 /* ========================================
@@ -547,6 +519,7 @@ hr {
 
 .timeline-item ul {
     margin-top: 0.5rem;
+    padding-left: 1.2rem;
 }
 
 .timeline-item li {
@@ -624,13 +597,6 @@ hr {
 }
 
 /* ========================================
-   LIENS DE PROJET / BOUTONS INTERNES
-======================================== */
-.project-link:hover h3 {
-    color: var(--rose);
-}
-
-/* ========================================
    PAGE PROJET
 ======================================== */
 .projet-details {
@@ -680,6 +646,7 @@ hr {
     box-shadow: var(--shadow-soft);
     transition: var(--transition);
     background-color: var(--white);
+    cursor: zoom-in;
 }
 
 .project-image:hover {
@@ -701,13 +668,11 @@ hr {
 
 .projet-bloc h3 {
     margin-bottom: 0.8rem;
-    color: var(--navy);
     font-size: 1.2rem;
 }
 
 .projet-bloc p {
     line-height: 1.8;
-    color: var(--text-soft);
 }
 
 .competences-projet {
@@ -721,17 +686,14 @@ hr {
 .competences-projet h3,
 .competences-projet h4 {
     margin-bottom: 1.2rem;
-    color: var(--navy);
     text-align: center;
 }
 
 .competences-projet ul {
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    padding-left: 0;
 }
 
 .competences-projet li a {
@@ -752,7 +714,6 @@ hr {
 .retour {
     display: inline-block;
     margin-top: 1rem;
-    color: var(--navy);
     font-weight: 600;
     transition: var(--transition);
 }
@@ -762,7 +723,7 @@ hr {
 }
 
 /* ========================================
-   PAGE COMPETENCE
+   PAGE COMPÉTENCE
 ======================================== */
 .competence-details {
     padding: 5rem 10%;
@@ -796,7 +757,6 @@ hr {
     margin: 0 auto;
     line-height: 1.8;
     font-size: 1.05rem;
-    color: var(--text-soft);
 }
 
 .competence-apprentissages,
@@ -808,9 +768,7 @@ hr {
 .competence-projets-lies h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--navy);
 }
-
 
 .level-card {
     background-color: var(--white);
@@ -819,7 +777,7 @@ hr {
     box-shadow: var(--shadow-soft);
     border: 1px solid rgba(130, 150, 183, 0.25);
     transition: var(--transition);
-    margin : 10px;
+    margin: 10px;
 }
 
 .level-card:hover {
@@ -845,17 +803,14 @@ hr {
 
 .level-card li {
     margin-bottom: 0.7rem;
-    color: var(--text-soft);
     line-height: 1.7;
 }
 
 .project-list {
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
-    padding-left: 0;
 }
 
 .project-list li a {
@@ -874,22 +829,16 @@ hr {
     color: var(--cream);
 }
 
-
 /* ========================================
    RESPONSIVE — TABLETTE (≤ 768px)
 ======================================== */
 @media (max-width: 768px) {
 
-    /* Header */
     header {
         flex-direction: column;
         align-items: flex-start;
         gap: 0.8rem;
         padding: 1rem 5%;
-    }
-
-    header h1 {
-        margin-bottom: 0;
     }
 
     header h1 a {
@@ -900,7 +849,6 @@ hr {
         gap: 1.2rem;
     }
 
-    /* Hero */
     .hero {
         grid-template-columns: 1fr;
         min-height: auto;
@@ -909,14 +857,13 @@ hr {
     }
 
     .hero-text h1 {
-        font-size: 2.8rem;
+        font-size: 2.6rem;
     }
 
     .hero-card {
-        display: none; /* cache la carte déco sur tablette */
+        display: none;
     }
 
-    /* Grilles 3 colonnes → 2 colonnes */
     .skills-grid,
     .projects-preview-grid,
     .path-grid,
@@ -924,7 +871,6 @@ hr {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /* Sections padding */
     .home-skills,
     .featured-projects,
     .home-path,
@@ -938,13 +884,11 @@ hr {
         padding: 3rem 5%;
     }
 
-    /* Preview contact */
     .preview-contact {
         margin: 0 5% 3rem;
         max-width: 90%;
     }
 
-    /* Présentation à propos */
     .presentation {
         grid-template-columns: 1fr;
         text-align: center;
@@ -959,13 +903,8 @@ hr {
         font-size: 1.1rem;
     }
 
-    /* Titres */
     h2 {
         font-size: 1.8rem;
-    }
-
-    .hero-text h1 {
-        font-size: 2.6rem;
     }
 
     .projet-hero h2,
@@ -974,13 +913,11 @@ hr {
     }
 }
 
-
 /* ========================================
    RESPONSIVE — MOBILE (≤ 480px)
 ======================================== */
 @media (max-width: 480px) {
 
-    /* Header */
     header {
         padding: 1rem 4%;
     }
@@ -994,7 +931,6 @@ hr {
         font-size: 0.9rem;
     }
 
-    /* Hero */
     .hero {
         padding: 2.5rem 4%;
     }
@@ -1024,7 +960,6 @@ hr {
         margin: 4px 0;
     }
 
-    /* Grilles → 1 colonne */
     .skills-grid,
     .projects-preview-grid,
     .path-grid,
@@ -1032,7 +967,6 @@ hr {
         grid-template-columns: 1fr;
     }
 
-    /* Sections padding */
     .home-skills,
     .featured-projects,
     .home-path,
@@ -1046,14 +980,12 @@ hr {
         padding: 2.5rem 4%;
     }
 
-    /* Preview contact */
     .preview-contact {
         margin: 0 4% 2.5rem;
         max-width: 92%;
         border-radius: var(--radius-md);
     }
 
-    /* Titres */
     h2 {
         font-size: 1.6rem;
     }
@@ -1063,7 +995,6 @@ hr {
         font-size: 1.8rem;
     }
 
-    /* Présentation à propos */
     .presentation img {
         max-width: 180px;
     }
@@ -1072,7 +1003,6 @@ hr {
         font-size: 1rem;
     }
 
-    /* Formulaire contact */
     .contact-form {
         padding: 2rem 4%;
     }
@@ -1081,7 +1011,6 @@ hr {
         padding: 1.5rem;
     }
 
-    /* Galerie projet */
     .gallery {
         grid-template-columns: 1fr;
     }
@@ -1090,13 +1019,11 @@ hr {
         height: 200px;
     }
 
-    /* Images projets */
     .project-preview-card img,
     .project-card img {
         height: 180px;
     }
 
-    /* Boutons globaux */
     .cta,
     button {
         padding: 0.75rem 1.2rem;

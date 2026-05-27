@@ -4,16 +4,21 @@
     <section class="apropos">
         <div class="presentation">
             <img src="img/leia.jpg" alt="Photo de Leia" />
+
+            <?php
+            $naissance = new DateTime('2006-02-24');
+            $aujourd_hui = new DateTime();
+            $age = $aujourd_hui->diff($naissance)->y;
+            ?>
+
             <div class="texte">
-                <p>Bonjour ! Je m'appelle <strong>Leia</strong>, j’ai 20 ans et j’étudie actuellement l’informatique
+                <p>Bonjour ! Je m'appelle <strong>Leia</strong>, j’ai <?= $age ?> ans et j’étudie actuellement l’informatique
                     au <strong>BUT Informatique de La Doua à Lyon</strong>.</p>
-                <p>J’aime coder et je me débrouille plutôt bien ! Aujourd'hui, je me spécialise dans
-                    <strong>la gestion de données</strong>, et mon objectif est de devenir <strong>data analyst</strong> 📊.
+                <p>Passionnée par l'analyse et la visualisation de données, je me spécialise dans la <strong>gestion de données</strong> avec pour objectif de devenir <strong>data analyst</strong>📊.
                 </p>
                 <p>Au-delà de la tech, j’ai une grande passion pour tout ce qui est artistique — musique, cinéma, photographie, dessin, littérature... Je suis aussi fan de jeux vidéo cozy comme <em>Animal Crossing</em> 🐶</p>
                 <p>Pendant mon temps libre, j’aime explorer de nouveaux loisirs et apprendre de nouvelles choses. J’adore relever des défis, que ce soit coder un nouveau projet ou plonger dans un nouveau livre.</p>
-                <p>N’hésitez pas à jeter un œil à mes projets ci-dessous, et contactez-moi si vous as des questions ou juste envie de discuter !</p>
-                <p>Merci de votre visite sur ma page ! 🌸</p>
+                <p>N’hésitez pas à jeter un œil à mes projets ci-dessous, et contactez-moi si vous avez des questions ou juste envie de discuter ! 🌸</p>
             </div>
         </div>
 
