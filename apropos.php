@@ -109,7 +109,7 @@
         <div class="timeline">
 
             <div class="timeline-item">
-                <h3>BUT Informatique – Université Lyon 1, site de la Doua</h3>
+                <h3>BUT Informatique, Université Lyon 1, site de la Doua</h3>
                 <span class="timeline-date">2024 – aujourd’hui</span>
                 <p>Études en informatique avec spécialité Administration, Gestion et Exploitation de Données</p>
                 <p>Actuellement en Stage pour 2 mois chez CEVA Logistics dans le service QHSE</p>
@@ -117,30 +117,30 @@
             </div>
 
             <div class="timeline-item">
-                <h3>TUMO Lyon – Ateliers de création numérique</h3>
+                <h3>TUMO Lyon : Ateliers de création numérique</h3>
                 <span class="timeline-date">2023 – 2024</span>
                 <p>Participation hebdomadaire à des sessions en autonomie pour explorer différents domaines de la création numérique. Je me suis concentrée sur :
                 <ul>
-                    <li><strong>★ Production musicale</strong> – initiation à Logic Pro 🎧</li>
-                    <li><strong>★ Robotique</strong> – découverte des capteurs et de la programmation physique avec Lego Spike</li>
-                    <li><strong>★ Programmation</strong> – approfondissement de mes connaissances en Python 🐍</li>
+                    <li><strong>★ Production musicale</strong> : initiation à Logic Pro 🎧</li>
+                    <li><strong>★ Robotique</strong> : découverte des capteurs et de la programmation physique avec Lego Spike</li>
+                    <li><strong>★ Programmation</strong> : approfondissement de mes connaissances en Python 🐍</li>
                 </ul>
                 </p>
             </div>
 
             <div class="timeline-item">
-                <h3>Girls Can Code! – Bootcamp Python</h3>
+                <h3>Girls Can Code! Bootcamp Python</h3>
                 <span class="timeline-date">Été 2023</span>
                 <p>Programme intensif d’une semaine dédié aux jeunes femmes dans la tech. J’ai renforcé mes compétences en Python en développant :
                 <ul>
                     <li>★ Un mini-jeu avec une carte Micro:bit</li>
-                    <li>★ “Charlotte aux grenades” – un jeu arcade en vue de coté réalisé avec Pygame 💣</li>
+                    <li>★ “Charlotte aux grenades” : un jeu arcade en vue de coté réalisé avec Pygame 💣</li>
                 </ul>
                 </p>
             </div>
 
             <div class="timeline-item">
-                <h3>Baccalauréat Général – Filière Scientifique</h3>
+                <h3>Baccalauréat Général, filière scientifique</h3>
                 <span class="timeline-date">2021 – 2024</span>
                 <p>Obtenu avec mention bien<br>
                     Spécialités : Mathématiques et Numérique et Sciences Informatiques (NSI),<br>

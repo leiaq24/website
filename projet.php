@@ -65,9 +65,11 @@ function etoiles(int $note, int $max = 3): string
                 <li>
                     <a href="competence.php?id=<?= htmlspecialchars($comp) ?>">
                         <?= htmlspecialchars($competences[$comp]['titre']) ?>
-
                         <?php if (isset($projet['evaluation'][$index])): ?>
-                            <?= etoiles($projet['evaluation'][$index]) ?>
+                            <?= etoiles(
+                                $projet['evaluation'][$index],
+                                count($competences[$comp]['niveaux'])
+                            ) ?>
                         <?php endif; ?>
                     </a>
                 </li>

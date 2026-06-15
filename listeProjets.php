@@ -127,20 +127,28 @@ Des statistiques sont également calculées automatiquement (total des dépenses
             'img/ceva.png',
             'img/ceva1.png',
             'img/ceva2.png',
+            'img/ceva3.png',
+            'img/ceva4.png',
+            'img/ceva5.png',
+            'img/ceva6.png',
         ],
-        'description' => "Participation à l'amélioration et à l'automatisation des processus QHSE à l'aide de Power BI, Power Automate, Microsoft Forms et SharePoint.",
-        'details' => "Dans le cadre de mon stage chez CEVA Logistics au sein du pôle QHSE France, sous la supervision de Ludovic Laracine (Data Analyst QHSE France), j'ai participé à plusieurs projets liés à la collecte, l'analyse et l'automatisation des données.
+        'description' => "Stage de data analyst au sein du pôle QHSE France : modernisation des outils de collecte, d'automatisation et de visualisation des données via la suite Microsoft 365.",
+        'details' => "Dans le cadre de mon stage de fin de 2ème année BUT Informatique chez CEVA Logistics (filiale du groupe CMA CGM, leader mondial de la logistique), j'ai intégré le service QHSE France à Vénissieux, sous la supervision de Ludovic Laracine, Data Analyst QHSE France.
 
-        J'ai conçu des formulaires Microsoft Forms et des Microsoft Lists afin de collecter des données terrain, puis automatisé leur intégration et leur exploitation dans Power BI pour créer des tableaux de bord interactifs et faciliter le suivi des indicateurs.
+Mes missions se sont articulées autour de deux axes complémentaires.
 
-Une partie importante du stage a consisté à améliorer et moderniser plusieurs dashboards existants, notamment ceux liés aux audits clients, aux audits sous-traitants ainsi qu'aux actions de prévention, afin d'optimiser leur lisibilité, leur ergonomie et la pertinence des indicateurs affichés.
+Collecte et structuration des données :
+★ Recréation du formulaire Microsoft Forms de suivi des visites HSE, supprimé suite au départ de sa créatrice, avec logique de branchement conditionnel et remise en service du visuel Power BI associé
+★ Modernisation de la gestion des demandes de changement : migration d'un fichier Excel partagé vers une Microsoft List structurée avec champs typés, et développement de deux flux Power Automate : le premier générant automatiquement un identifiant unique, créant le dossier SharePoint correspondant et envoyant un e-mail récapitulatif aux personnes concernées et le second assurant des relances automatiques pour les demandes sans planification après deux mois.
 
-Enfin, j'ai développé plusieurs automatisations avec Power Automate pour simplifier les processus internes et garantir la cohérence des données. Par exemple, lors d'une nouvelle demande de changement :
-- un identifiant unique est généré automatiquement selon une nomenclature définie ;
-- un dossier est créé automatiquement dans le répertoire approprié afin de déposer directement les documents nécessaires à la demande de changement ;
-- un email récapitulatif est envoyé aux personnes concernées ;",
-        'competences' => ['realiser', 'optimiser', 'gerer', 'collaborer'],
-        'evaluation' => [2, 2, 3, 3],
-        'realisation' => "Projets réalisés lors de mon stage effectué en fin de 2ème année au BUT Informatique.",
+Création et amélioration des tableaux de bord Power BI :
+★ Modernisation des dashboards audits clients et sous-traitants, avec création des mesures DAX de calcul automatique des retards
+★ Refonte et extension des dashboards de prévention (exercices incendie, épandages, campagne drogue et alcool, MAJ du DUER) et création de trois nouvelles pages (MAJ du PAPRIPACT, postes à risque, ISO 14001)
+★ Création intégrale de la feuille de route (QMS Rate) : 18 mesures DAX individuelles et correction du biais statistique lié à la moyenne des moyennes
+★ Refonte du dashboard principal avec nettoyage et optimisation des mesures existantes, extraction DAX des clés de jointure numériques pour fiabiliser les liens entre sources hétérogènes, et application de la charte graphique CEVA
+★ Développement du dashboard mensuel, centralisant l'ensemble des indicateurs QHSE (accidentologie, visites, prévention, audits, qualité, énergie/déchets) par site.",
+        'competences' => ['realiser', 'optimiser', 'gerer', 'conduire', 'collaborer'],
+        'evaluation' => [2, 2, 2, 2, 2],
+        'realisation' => "Stage effectué du 20 avril au 3 juillet 2026 en fin de 2ème année de BUT Informatique (parcours Data).",
     ],
 ];
