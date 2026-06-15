@@ -6,7 +6,7 @@
       <p class="hero-tag">Étudiante en BUT Informatique • Orientation data</p>
       <h1>Bonjour, je suis Leia</h1>
       <p class="hero-subtitle">
-        Intéressée par l'analyse et la visualisation de données, je fais faire mon alternance chez Securitas Technology pour ma troisième année au BUT Informatique
+        Intéressée par l'analyse et la visualisation de données, je rejoins Securitas Technology en alternance pour ma troisième année de BUT Informatique
       </p>
 
       <div class="hero-buttons">
